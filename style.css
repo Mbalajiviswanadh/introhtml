@@ -1,0 +1,123 @@
+h1,h2,h3,h4,h5,h6{
+    color: green;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+#para1{
+    color: blue;
+}
+#para2{
+    color: red;
+}
+#para3{
+    color: brown;
+}
+
+
+.paratext{
+    text-align: justify;
+    line-height: 20px;
+
+}
+ 
+table,tr,td,th{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid green;
+    border-collapse: collapse;
+    width: 500px;
+    height: 60px;
+    text-align: center;
+}
+#a1{
+    color: blueviolet;
+    text-decoration:none;
+   
+}
+#a2{
+    color:darkblue;
+    text-decoration: line-through;
+}
+
+.form{
+    border: 2px solid red;
+    background-color: lightblue;
+    width: 400px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:sans-serif;
+    margin-bottom: 30px;
+
+}
+label{
+    
+
+    display: inline-block;
+    width: 100px;
+    margin-right: 50px;
+}
+
+#hbutton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 20%;
+    /* border-radius: 15px; */
+    border-radius: 2px 10px 5px 2px;
+
+    }
+#hbutton:hover{
+    color: white;
+    background-color: black;
+    transition: 1s;
+}
+/* padding = paddinf-right + padding-left +padding-top +padding-bottom */
+
+.flex-box{
+  display: flex;  
+  padding: 10px;
+}
+#flex-para{
+    padding: 20px;
+    text-align: justify;
+
+}
+.container{
+    display: flex;
+    padding: 20px;
+    text-align: justify;
+}
+.left-box{
+    padding-right: 30px;
+}
+
+ul {
+    list-style-type: none;
+    border: 1px solid;
+    width: 180px;
+    padding: 10px;
+    background-color: lightcyan;
+    margin-left: auto;
+    margin-right: auto;
+}
+li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    color:black;
+}
+
+li a:hover{
+    background-color: lightblue;
+    color: purple;
+    transition: 0.4s;
+}
